@@ -3,7 +3,7 @@ This repository contains the source code to generate a database that can be used
 The procedure can be used for any language simply by using videos in the desired language.
 The generated output consists of a CSV file with the following fields:
 
-| Anotación        | Descripción  | 
+| Annotation        | Description  | 
 | ------------- |:-------------:|
 | Link          | YouTube video link without the string: *www.youtube.com/*		 |
 | Text          | Spoken text in the video sample						         |
@@ -19,7 +19,7 @@ The generated output consists of a CSV file with the following fields:
 ## 1. Download the videos and place them in a directory.
 You can generate several directories for different categories. E.g. news, blogs, etc.
 Create a spreadsheet file whose name matches the category that contains the video link
-followed by the name of the downloaded video. The first row of this file must contain * Link * in the first column and * Video * in the second column. This file is used to control the link of each video
+followed by the name of the downloaded video. The first row of this file must contain *Link* in the first column and *Video* in the second column. This file is used to control the link of each video
 and is used to generate the database with the link.
 
 
